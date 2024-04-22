@@ -1,0 +1,217 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background-color: #F8F8F8;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.container {
+  margin: auto;
+  width: 95%;
+  max-width: 912px;
+}
+h1 {
+  font-size: 2rem;
+  font-weight: 400;
+  color: #143774;
+}
+.logo p {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #1792d2;
+  letter-spacing: 2.4px;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+nav li {
+  margin-left: 2em;
+}
+nav a {
+  color: #717171;
+  font-size: 1rem;
+  text-decoration: none;
+  font-weight: 700;
+  cursor: pointer;
+}
+.home {
+  border-bottom: 2px solid #717171;
+  padding-bottom: 2px;
+}
+.d-flex {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 3em 0;
+}
+.align-item{
+    align-items: center;
+}
+section{
+    padding-top: 8em;
+}
+.seed {
+  width: 70%;
+  color: #707070;
+}
+
+.seed .div {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.seed img {
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+.seed span {
+  margin-bottom: 1em;
+  font-size: 1rem;
+}
+.seed h2 {
+  color: #143774;
+  margin-bottom: 1em;
+  font-size: 1.5rem;
+}
+.seed p {
+  font-size: 1.1rem;
+  margin-bottom: 1em;
+}
+.seed a,
+h3 {
+  color: #1792d2;
+}
+.seed h3 {
+  font-size: 1rem;
+  margin-bottom: 1em;
+}
+.seed .card{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 2em;
+}
+ .left{
+    width: 35%;
+    /* border: 1px solid black; */
+}
+.right{
+    flex: 1;
+    margin-left: 20px ;
+}
+.harmany{
+    width: 25%;
+}
+.harmany a{
+    text-decoration: none;
+}
+
+.about-me, .recent-post{
+    border: 20px solid #EBEBEB;
+    margin-bottom: 2.5em;
+    background-color: white;
+    padding: 1em;
+}
+.about-me img, .recent-post img{
+    cursor: pointer;
+    width: 100%;
+}
+.about-me h3, .recent-post h3{
+    color: #143774;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: .75em;
+}
+.about-me p, .recent-post p{
+    color: #143774;
+    font-size: 1rem;
+    margin: .85em 0;
+    text-align: center;
+    cursor: pointer;
+}
+.border-top{
+    border-top: 1px solid rgb(146, 146, 146);
+    padding: 1.5em 0;
+    margin: 2em 0;
+}
+footer{
+    background-color: #143774;
+    color: white;
+    display: flex;
+    text-align: center;
+    padding: 3em 0;
+    flex-direction: column;
+  color: #c1bdbd;
+}
+.flex-column{
+    flex-direction: column;
+    justify-content: center;
+}
+@media (max-width:700px) {
+    .seed, .harmany{
+      width: 100%;
+    } 
+    .d-flex{
+        padding: 1em;
+    } 
+    .column{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    nav ul{
+        flex-direction: column;
+        justify-content: center;
+    }
+    nav li{
+        margin-left: 0;
+        margin-top: 2em;
+    }
+    section{
+        padding-top: 15em;
+    }
+    .seed .card{
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+    }
+    .left{
+        width: 100%;
+    }
+    .seed img {
+        margin-bottom: 0;
+        margin-top: 1em;
+      }
+      
+      .seed span {
+        margin-bottom: 0;
+        margin-top: 1em;
+      }
+      .seed h2 {
+        margin-bottom: 0;
+        margin-top: 1em;
+      }
+      .seed p {
+        margin-bottom: 0;
+        margin-top: 1em;
+      }
+      .seed h3 {
+        margin-bottom: 0;
+        margin-top: 1em;
+      }
+      .about-me, .recent-post{
+       margin-bottom: 0;
+       margin-top: 1rem;
+    }
+  }

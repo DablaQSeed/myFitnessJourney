@@ -1,0 +1,12 @@
+.home{
+    border: 0;
+    padding: 0;
+}
+.about{
+    border-bottom: 0;
+  padding-bottom: 0;
+}
+.recent-posts{
+    border-bottom: 2px solid #717171;
+  padding-bottom: 2px;
+}
